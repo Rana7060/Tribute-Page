@@ -1,0 +1,54 @@
+* {
+  font-family: monospace;
+  line-height: 40px;
+}
+
+#main {
+  padding: 40px 0px;
+  background-color: #fafafa;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+
+#title {
+  color: royalblue;
+  font-weight: bold;
+  font-size: 40px;
+}
+#subtitle {
+  font-style: italic;
+}
+
+#img-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#image {
+  width: auto;
+  height: 400px;
+}
+
+#img-caption {
+  font-weight: bold;
+  font-style: italic;
+}
+.quote {
+  margin: 0;
+  background: #eee;
+  padding: 1em;
+  border-radius: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.quote figcaption,
+.quote blockquote {
+  margin: 1em;
+  font-size: larger;
+}
+ul {
+  font-size: large;
+}
